@@ -167,18 +167,6 @@ Stack: `flutter_test`, `bloc_test`, `mocktail`, `drift/native` for in-memory SQL
 
 ---
 
-## AI workflow integration
-
-This project was scaffolded with the help of AI tooling (Claude Code). See [`docs/AI_WORKFLOW.md`](docs/AI_WORKFLOW.md) for the full discipline:
-
-- prompt-driven scaffolding with explicit architecture constraints
-- treating every AI suggestion as a PR to review (never blind-merge)
-- using AI for test generation, then mutation-checking the result
-- using AI for performance hypothesizing, then verifying with the Performance Lab
-- guardrails to keep architecture consistent across many small generations
-
----
-
 ## How to run
 
 Prerequisites: Flutter 3.22+ (Dart 3.3+), Android Studio / Xcode for device targets.
@@ -225,12 +213,6 @@ dart format --set-exit-if-changed lib test
 > - `docs/screenshots/02_feed.png`
 > - `docs/screenshots/03_favorites.png`
 > - `docs/screenshots/04_perf_lab.png`
-
----
-
-## Interview talk track
-
-See [`docs/INTERVIEW_TALK_TRACK.md`](docs/INTERVIEW_TALK_TRACK.md) for the 2-minute and 5-minute pitches.
 
 ---
 
